@@ -3,31 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FretMap</title>
+    <meta name="description" content="FretMaster helps guitar players learn the fretboard with focused drills, live note detection, and adaptive practice.">
+    <title>FretMaster</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>FretMap</h1>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="index.html" aria-label="FretMaster home">
+                <img class="brand-mark" src="icon.png" alt="FretMaster app icon">
+                <span class="brand-copy">
+                    <span class="brand-title">FretMaster</span>
+                    <span class="brand-subtitle">Fretboard training for focused guitar practice</span>
+                </span>
+            </a>
 
-    <p>
-        Learn the guitar fretboard faster with interactive exercises,
-        note recognition, adaptive practice, and real-time feedback.
-    </p>
+            <nav class="site-nav" aria-label="Primary">
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#how-it-works">How It Works</a>
+                <a class="nav-link-strong" href="privacy.html">Privacy</a>
+            </nav>
+        </header>
 
-    <h2>Features</h2>
-    <ul>
-        <li>Fretboard note training</li>
-        <li>Microphone note recognition</li>
-        <li>Adaptive learning</li>
-        <li>Progress tracking</li>
-        <li>Built-in guitar tuner</li>
-    </ul>
+        <main>
+            <section class="hero hero-home">
+                <div class="hero-copy">
+                    <span class="eyebrow">Precision practice for modern guitar players</span>
+                    <h1>Turn the fretboard into instinct, not guesswork.</h1>
+                    <p class="hero-intro">
+                        FretMaster blends note drills, real-time listening, and targeted repetition
+                        into a training flow that feels closer to rehearsal than rote memorization.
+                    </p>
 
-    <p>
-        <a href="support.html">Support</a>
-    </p>
+                    <div class="hero-actions">
+                        <a class="button" href="mailto:joe@projectakira.biz">Email Support</a>
+                        <a class="button-secondary" href="privacy.html">Review Privacy</a>
+                    </div>
 
-    <p>
-        <a href="privacy.html">Privacy Policy</a>
-    </p>
+                    <p class="hero-support-contact">
+                        Support email: <a href="mailto:joe@projectakira.biz">joe@projectakira.biz</a>
+                    </p>
+
+                    <div class="hero-signals" aria-label="Product signals">
+                        <div class="signal-card">
+                            <span class="signal-value">Live</span>
+                            <span class="signal-label">Microphone-based note recognition</span>
+                        </div>
+                        <div class="signal-card">
+                            <span class="signal-value">Focused</span>
+                            <span class="signal-label">Short drills built for daily retention</span>
+                        </div>
+                        <div class="signal-card">
+                            <span class="signal-value">Adaptive</span>
+                            <span class="signal-label">Practice weight shifts toward weak spots</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual hero-stage" aria-hidden="true">
+                    <div class="hero-grid"></div>
+                    <div class="hero-device-frame">
+                        <div class="hero-string hero-string-left"></div>
+                        <div class="hero-string hero-string-right"></div>
+                        <img src="icon.png" alt="">
+                    </div>
+                    <div class="hero-floating-card hero-floating-top">
+                        <strong>Real-time feedback</strong>
+                        <span>See the target, play the note, lock the position in.</span>
+                    </div>
+                    <div class="hero-floating-card hero-floating-bottom">
+                        <strong>Practice with intent</strong>
+                        <span>Each session stays narrow enough to improve recall quickly.</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="band brand-band">
+                <div>
+                    <span class="eyebrow">Why it stands out</span>
+                    <h2>Built for players who want measurable progress without bloated practice tooling.</h2>
+                </div>
+                <div class="brand-band-copy">
+                    <p>
+                        The app is intentionally narrow: learn note locations faster, reinforce them with repetition,
+                        and connect fretboard knowledge to what you actually hear and play.
+                    </p>
+                </div>
+            </section>
+
+            <section id="features">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">Core Features</span>
+                        <h2>A cleaner path from theory knowledge to playable reflexes.</h2>
+                    </div>
+                    <p>
+                        Every feature supports the same outcome: faster recognition, fewer hesitations,
+                        and a practice loop that stays useful even in short sessions.
+                    </p>
+                </div>
+
+                <div class="card-grid feature-grid">
+                    <article>
+                        <div class="icon-pill">01</div>
+                        <strong class="feature-title">Structured note drills</strong>
+                        <p>Work one area at a time or expand across the neck with drills that stay readable and repeatable.</p>
+                    </article>
+
+                    <article>
+                        <div class="icon-pill">02</div>
+                        <strong class="feature-title">Instant note detection</strong>
+                        <p>Use your guitar and let FretMaster listen for played notes so feedback happens while you perform.</p>
+                    </article>
+
+                    <article>
+                        <div class="icon-pill">03</div>
+                        <strong class="feature-title">Adaptive repetition</strong>
+                        <p>Spend more time on uncertain positions instead of wasting reps on note locations you already own.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="how-it-works" class="workflow-shell">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">How It Works</span>
+                        <h2>Simple flow, serious practice value.</h2>
+                    </div>
+                    <p>
+                        The product loop is short by design so it fits between lessons, rehearsals,
+                        or any small block of focused practice time.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <span class="step-index">Step 1</span>
+                        <h2>Choose a target</h2>
+                        <p>Start with a note family, select specific strings, and focus on a section of the neck.</p>
+                    </div>
+
+                    <div class="timeline-step">
+                        <span class="step-index">Step 2</span>
+                        <h2>Play with feedback</h2>
+                        <p>Move through prompts while live detection confirms what you played and keeps the loop responsive.</p>
+                    </div>
+
+                    <div class="timeline-step">
+                        <span class="step-index">Step 3</span>
+                        <h2>Reinforce weak areas</h2>
+                        <p>Return to missed notes until recognition becomes fast enough to support improvisation and reading.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="site-footer-copy">
+                <p>&copy; 2026 Project Akira LLC. All rights reserved.</p>
+                <p>FretMaster is developed and published by Project Akira LLC.</p>
+                <p>Contact: <a href="mailto:joe@projectakira.biz">joe@projectakira.biz</a></p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
